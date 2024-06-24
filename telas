@@ -1,0 +1,96 @@
+Sequência de Telas
+Tela de Login
+Tela de Dashboard
+Tela de Cadastro de Pacientes
+Tela de Listagem de Pacientes
+Tela de Detalhes do Paciente
+Tela de Triagem
+Tela de Consulta Médica
+Tela de Relatórios
+Tela de Administração
+1. Tela de Login
+Descrição: Tela onde os usuários (médicos, enfermeiros, recepcionistas, administradores) fazem login para acessar o sistema.
+
+Componentes:
+
+Campo de entrada para e-mail/usuário.
+Campo de entrada para senha.
+Botão de login.
+Link para recuperação de senha.
+2. Tela de Dashboard
+Descrição: Tela inicial após o login, exibindo um resumo das atividades do dia.
+
+Componentes:
+
+Resumo das consultas agendadas.
+Pacientes na espera.
+Acesso rápido aos últimos registros de pacientes.
+Navegação para outras áreas do sistema (menu lateral).
+3. Tela de Cadastro de Pacientes
+Descrição: Tela para cadastro de novos pacientes ou atualização de informações de pacientes existentes.
+
+Componentes:
+
+Campos para dados pessoais (nome, data de nascimento, gênero, etc.).
+Campos para informações de contato (endereço, telefone, e-mail).
+Botão para salvar e atualizar informações.
+4. Tela de Listagem de Pacientes
+Descrição: Tela que exibe uma lista de todos os pacientes cadastrados, com a possibilidade de busca e filtragem.
+
+Componentes:
+
+Barra de busca para localizar pacientes.
+Lista de pacientes com informações básicas (nome, idade, último atendimento).
+Botão para adicionar novo paciente.
+Links para acessar os detalhes de cada paciente.
+5. Tela de Detalhes do Paciente
+Descrição: Tela que exibe informações detalhadas sobre um paciente específico.
+
+Componentes:
+
+Dados pessoais e de contato.
+Histórico médico e de consultas.
+Exames anteriores e anotações médicas.
+Botões para editar informações e iniciar triagem ou consulta médica.
+6. Tela de Triagem
+Descrição: Tela onde o enfermeiro realiza a triagem do paciente.
+
+Componentes:
+
+Campos para coleta de sintomas.
+Campos para coleta de sinais vitais.
+Histórico médico relevante.
+Botão para salvar informações da triagem.
+7. Tela de Consulta Médica
+Descrição: Tela usada pelos médicos para realizar consultas e diagnósticos.
+
+Componentes:
+
+Visualização de dados do paciente (histórico completo, resultados de exames anteriores, notas de triagem).
+Campos para anotações médicas.
+Opções para prescrição de tratamentos.
+Botão para salvar a consulta.
+8. Tela de Relatórios
+Descrição: Tela para geração e visualização de relatórios.
+
+Componentes:
+
+Filtros para selecionar o tipo de relatório (triagem, consultas, diagnósticos, operação administrativa).
+Botão para gerar relatório.
+Exibição dos relatórios gerados.
+9. Tela de Administração
+Descrição: Tela para administração do sistema, acessível apenas para administradores.
+
+Componentes:
+
+Gerenciamento de usuários (adicionar, editar, remover).
+Monitoramento de estatísticas de uso do sistema.
+Configurações de segurança e conformidade.
+Botão para salvar alterações.
+Estrutura de Componentes e Páginas
+Componentes Reutilizáveis
+Header: Componente de cabeçalho para navegação.
+Sidebar: Menu lateral para navegação entre as telas.
+Footer: Rodapé com informações da aplicação.
+Button: Botões reutilizáveis com diferentes estilos (primário, secundário, etc.).
+FormInput: Campos de entrada reutilizáveis para formulários.

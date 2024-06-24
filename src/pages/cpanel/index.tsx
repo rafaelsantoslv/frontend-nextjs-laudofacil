@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const cpanel = () => {
-  return (
-    <div className='bg-slate-700'>cpanel</div>
-  )
-}
+  return <div className="bg-slate-700">cpanel</div>;
+};
 
-export default cpanel
+export default cpanel;
